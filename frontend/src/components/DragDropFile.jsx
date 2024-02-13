@@ -9,7 +9,7 @@ const DragDropFile = () => {
     // drag state
     const [dragActive, setDragActive] = React.useState(false);
     const [selectedFile, setSelectedFile] = React.useState(null);
-    const [selectedOption, setSelectedOption] = React.useState('telugu');
+    const [selectedOption, setSelectedOption] = React.useState('te');
     const {setData,setIsLoading} = useContext(appContext)
     const navigate= useNavigate()
     const handleFile = (files) => {
@@ -123,10 +123,10 @@ const DragDropFile = () => {
             value={selectedOption}
             onChange={handleOptionChange}
         >
-          <option value="telugu">Telugu</option>
-          <option value="tamil">Tamil</option>
-          <option value="kannada">Kannada</option>
-          <option value="malayalam">Malayalam</option>
+          <option value="te">Telugu</option>
+          <option value="ta">Tamil</option>
+          <option value="kn">Kannada</option>
+          <option value="ml">Malayalam</option>
         </select>
       </div>
 
