@@ -12,6 +12,7 @@ __pycache__/
 # Compiled Java class files
 *.class
 
+
 # Compiled Python bytecode
 *.py[cod]
 
