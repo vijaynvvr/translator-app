@@ -3,6 +3,7 @@
 
 ```
 git clone <repo_link>
+code <repo_name>
 ```
 Open terminal (Ctrl+Shift+`)
 ```
